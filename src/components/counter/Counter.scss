@@ -1,0 +1,36 @@
+.counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.counter-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.counter-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.counter-btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-btn-increase {
+  background-color: green;
+  color: white;
+  margin-right: 1rem;
+}
+
+.counter-btn-decrease {
+  background-color: red;
+  color: white;
+}
